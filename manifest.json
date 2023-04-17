@@ -1,7 +1,7 @@
 {
-  "name": "My Extension",
+  "name": "ELI5-GPT",
   "version": "1.0",
-  "description": "This is my awesome extension.",
+  "description": "A browser extension for paraphrasing texts on the interwebs :)",
   "manifest_version": 3,
   "permissions": ["activeTab", "storage"],
   "content_scripts": [
