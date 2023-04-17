@@ -7,21 +7,33 @@ ELI5-GPT is a Chrome extension that allows you to easily paraphrase text on any 
 To install the ELI5-GPT Chrome extension:
 
 1. Download the extension files from the [GitHub repository](https://github.com/ArshanKhanifar/eli5-gpt).
+
 2. Get an API key from OpenAI. You may have to set up a billed account for this. 
+
 3. replace [this line](content.js#L3) with your API key.
+
 4. Open Google Chrome and navigate to the extensions page (chrome://extensions/).
+
 5. Enable "Developer mode" by toggling the switch in the top-right corner.
+
 6. Click the "Load unpacked" button in the top-left corner.
+
 7. Select the extension files you downloaded in step 1.
+
 8. The ELI5-GPT extension should now be installed and ready to use.
 
 ## Usage
 
 To use the extension:
+
 1. Navigate to a webpage with text you want to paraphrase.
+
 2. Hover over a paragraph of text you want to paraphrase.
+
 3. Click the "Paraphrase" button that appears.
+
 4. The extension will generate a paraphrased version of the text and display it word by word in a typing animation.
+
 5. Once the entire paraphrased text is displayed, it will replace the original text in the webpage.
 
 ## Configuration
