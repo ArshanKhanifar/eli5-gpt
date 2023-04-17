@@ -1,0 +1,23 @@
+{
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "This is my awesome extension.",
+  "manifest_version": 3,
+  "permissions": ["activeTab", "storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "128": "icon.png"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["icon.png", "node_modules/dotenv/dist/dotenv.js"],
+      "matches": ["*://*/*"]
+    }
+  ],
+  "host_permissions": ["*://*/*"]
+}
